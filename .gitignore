@@ -1,0 +1,60 @@
+# Environment Files
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Machine Learning Models & Large Files
+*.h5
+*.ckpt
+*.tflite
+*.onnx
+*.pth
+*.pt
+
+# Logs
+*.log
+logs/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Node.js (if applicable for frontend)
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Web Development
+*.cache/
+*.map
+coverage/
+dist/
+out/
+temp/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.iml
+
+# Docker (if using)
+*.pid
+.dockerignore
+docker-compose.override.yml
+
+# Platform-specific files
+*.swp
+*.swo
